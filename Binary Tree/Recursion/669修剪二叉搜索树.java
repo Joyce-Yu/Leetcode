@@ -23,6 +23,8 @@ class Solution {
         if (root == null){
             return null;
         }
+        
+        //如果根节点不在范围内，剪枝
         if(root.val > high){
             return trimBST(root.left, low, high);
         }
@@ -30,6 +32,7 @@ class Solution {
             return trimBST(root.right, low, high);
         }
 
+        //如果正常的话，就正常递归
         root.left = trimBST(root.left, low, high);
         root.right = trimBST(root.right, low, high);
 
