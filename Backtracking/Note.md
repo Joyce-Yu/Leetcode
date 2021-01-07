@@ -9,6 +9,23 @@
 
 (参考[carl大佬](https://mp.weixin.qq.com/s?__biz=MzUxNjY5NTYxNA==&mid=2247485237&idx=1&sn=1bae4c3d0d3965af44878093a5a49f58&chksm=f9a23464ced5bd72ff9ddcc9c70f69131a9e57e5c1aa674cc62551cd434c64f10a88395dce60&scene=178&cur_album_id=1607983171550167042#rd))
 
+## 基本排列组合子集等问题
+
+| 题号        |链接          | 代码  | 
+| :-------------:|:-------------:| -----:|
+|46|[全排列（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/46Permutations.java)||
+|47|[全排列II（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/47PermutationsII.java)||
+|78|[子集（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/78-subsets.java)||
+|90|[子集II（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/90-subset-II.java)||
+| 77        | [组合（中等）](https://leetcode-cn.com/problems/combinations/)      | [代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/77Combination.java) |
+| 216        |[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)      |[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/216CombinationIII.java) |
+| 39      | [组合总和（中等)](https://leetcode-cn.com/problems/combination-sum/)   | [代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/39Combination.java)|
+| 40 | [组合总和 II（中等）](https://leetcode-cn.com/problems/combination-sum-ii/)|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/40CombinationII.java) |
+|491|[增长子序列（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/491-increasing-subsequences.java)|
+|257|[二叉树的所有路径（中等）](https://leetcode-cn.com/problems/binary-tree-paths/)|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/257-binary-tree-paths.java)|
+|17|[电话号码字母组合（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/17-letter-combinations-of-a-phone-number.java)|
+
+
 ## 组合问题
 | 题号        |链接          | 代码  | 说明|
 | ------------- |:-------------:| -----:|------------- |
@@ -16,3 +33,13 @@
 | 216        |[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)      |[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/216CombinationIII.java) |相比于77，集合固定（1-9），找到和为n的k个数的组合
 | 39      | [组合总和（中等)](https://leetcode-cn.com/problems/combination-sum/)   | [代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/39Combination.java)|给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
 | 40 | [组合总和 II（中等）](https://leetcode-cn.com/problems/combination-sum-ii/)|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/40CombinationII.java) |相比于39，本题candidates 中的每个数字在每个组合中只能使用一次。数组candidates的元素是有重复的，而39.组合总和是无重复元素的数组candidates
+
+## 排列问题
+排列问题：N个数按一定规则全排列，有几种排列方式
+
+| 题号        |链接          | 代码  | 说明|
+| :-------------: |:-------------:| -----:|------------- |
+|46|[全排列（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/46Permutations.java)||
+|47|[全排列II（中等）]()|[代码](https://github.com/Joyce-Yu/Leetcode/blob/main/Backtracking/47PermutationsII.java)||
+
+
