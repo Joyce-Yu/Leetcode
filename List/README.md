@@ -9,7 +9,19 @@
 
 ## To do(Middle)
 
-- [ ] [TOP 面试题](https://leetcode-cn.com/problemset/all/?listId=2ckc81c&topicSlugs=array&difficulty=%E4%B8%AD%E7%AD%89)
-- [ ] [TOP 精选题](https://leetcode-cn.com/problemset/all/?listId=2cktkvj&topicSlugs=array&difficulty=%E4%B8%AD%E7%AD%89)
+[List TOP 面试题](https://leetcode-cn.com/problemset/all/?listId=2ckc81c&topicSlugs=array&difficulty=%E4%B8%AD%E7%AD%89)
+
+[List TOP 精选题](https://leetcode-cn.com/problemset/all/?listId=2cktkvj&topicSlugs=array&difficulty=%E4%B8%AD%E7%AD%89)
+
+- [ ] [62 不同路径](https://leetcode-cn.com/problems/unique-paths/)
+   动态规划
+- [ ] [54 旋转矩阵](https://leetcode-cn.com/problems/spiral-matrix)
+- [ ] [78 子集](https://leetcode-cn.com/problems/subsets)
+- [ ] [79 单词搜索](https://leetcode-cn.com/problems/word-search/)
 
 
+## To do(Hard)
+
+[List TOP 精选题](https://leetcode-cn.com/problemset/all/?listId=2cktkvj&topicSlugs=array&difficulty=%E5%9B%B0%E9%9A%BE)
+
+[List TOP 面试题](https://leetcode-cn.com/problemset/all/?listId=2ckc81c&topicSlugs=array&difficulty=%E5%9B%B0%E9%9A%BE)
