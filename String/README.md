@@ -13,10 +13,10 @@
 
 - [x] 13	罗马数字转整数  	2480	62.3%	简单	
 
-14	最长公共前缀  	2548	39.1%	简单	
-20	有效的括号  	3684	43.6%	简单	
-28	实现 strStr()  	1967	39.6%	简单	
-38	外观数列  	1658	57.1%	简单	
-125	验证回文串  	1295	46.8%	简单	
-344	反转字符串  	1196	74.1%	简单	
-387	字符串中的第一个唯一字符  	827	51.2%	简单	
+- [ ] 14	最长公共前缀  	2548	39.1%	简单	
+- [x] 20	有效的括号  	3684	43.6%	简单	
+- [x] [28	实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)	way1: 用substring way2: KMP构建前缀表匹配（to do）[参考视频](https://www.bilibili.com/video/BV1PD4y1o7nd/?spm_id_from=trigger_reload)
+- [ ] 38	外观数列  	1658	57.1%	简单	
+- [x] [125	验证回文串  	1295	46.8%	简单](https://leetcode-cn.com/problems/valid-palindrome/)	 注意大小写，字符串的引用！
+- [x] 344	反转字符串  	1196	74.1%	简单	
+- [x] 387	字符串中的第一个唯一字符  	827	51.2%	简单	
