@@ -1,6 +1,8 @@
 # :green_book: 剑指offer
 [合集](https://leetcode-cn.com/problemset/lcof/?topicSlugs=stack)
 - [x] [剑指 Offer 09	用两个栈实现队列  	943	72.6%	简单](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)	
+- [x] [leetcode 225 用两个队列实现栈  4402	66.4%	简单](https://leetcode-cn.com/problems/implement-stack-using-queues)
+
 
 用LinkedList初始化两个栈 A，B；A负责队列的“进”， B负责队列的出。如果要出了且B中无元素，就把A中的压入B
 - [x] [剑指 Offer 30	包含min函数的栈  	449	57.4%	简单](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)
@@ -14,6 +16,11 @@
 [合集](https://leetcode-cn.com/problemset/all/?topicSlugs=stack&listId=2ckc81c)
 
 ## TO DO
+- [ ] [239 滑动窗口最大值 835	49.5%	困难](https://leetcode-cn.com/problems/sliding-window-maximum)
+可参考https://mp.weixin.qq.com/s/8c6l2bO74xyMjph09gQtpA
+- [ ] [347 前 K 个高频元素  917	61.8% 中等](https://leetcode-cn.com/problems/top-k-frequent-elements)
+参考https://mp.weixin.qq.com/s/8hMwxoE_BQRbzCc7CA8rng
+
 - [ ] [341	扁平化嵌套列表迭代器  	139	65.8%	中等](https://leetcode-cn.com/problems/flatten-nested-list-iterator)
 题目不太理解
 - [ ] [85	最大矩形  	459	51.6%	困难](https://leetcode-cn.com/problems/maximal-rectangle/)
