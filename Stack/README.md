@@ -1,4 +1,7 @@
-# :green_book: 剑指offer
+
+# 一、队列、栈
+
+## :green_book: 剑指offer
 [合集](https://leetcode-cn.com/problemset/lcof/?topicSlugs=stack)
 - [x] [剑指 Offer 09	用两个栈实现队列  	943	72.6%	简单](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)	
 - [x] [leetcode 225 用两个队列实现栈  4402	66.4%	简单](https://leetcode-cn.com/problems/implement-stack-using-queues)
@@ -12,10 +15,10 @@
 
 初始化一个queue和一个双端队列deque。push操作时，需要将较小值压入deque，保证队列前面一直是最大值，如果压入的数据大于deque的末尾，则将末尾的数据依次弹出，再压入较大数据。弹出时要注意deque的peekFirst如果等于queue的poll，也需要弹出。最后注意空栈时候的情况，记得判断是否为空。
 
-# :orange_book: leetcode
+## :orange_book: leetcode
 [合集](https://leetcode-cn.com/problemset/all/?topicSlugs=stack&listId=2ckc81c)
 
-## TO DO
+### TO DO
 - [x] [239 滑动窗口最大值 835	49.5%	困难](https://leetcode-cn.com/problems/sliding-window-maximum)
 单调队列，可参考https://mp.weixin.qq.com/s/8c6l2bO74xyMjph09gQtpA
 - [ ] [347 前 K 个高频元素  917	61.8% 中等](https://leetcode-cn.com/problems/top-k-frequent-elements)
@@ -25,7 +28,7 @@
 题目不太理解
 - [ ] [85	最大矩形  	459	51.6%	困难](https://leetcode-cn.com/problems/maximal-rectangle/)
 - [ ] [394	字符串解码  	875	53.8%	中等](https://leetcode-cn.com/problems/decode-string/solution/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/)
-## Done
+### Done
 - [x] [20	有效的括号  	3697	43.6%	简单](https://leetcode-cn.com/problems/valid-parentheses/submissions/)	
 需要用一个map来存储匹配关系，再用deque依次放入character，如果要放入的为},])，则deque的peekLast需要与之匹配。
 
@@ -43,3 +46,21 @@
 每次指向的运算符，并非直接进行运算，而是将之前记录的操作符代入计算。（最开始默认sign为+）
 - [x] [946. 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 - [x] [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)
+
+# 二、堆和优先队列
+## 剑指offer
+- [ ] 剑指 Offer 40	最小的k个数  	1235	57.0%	简单	
+- [ ] 剑指 Offer 41	数据流中的中位数  	225	56.6%	困难
+
+## leetcode
+- [ ] 23	合并K个升序链表  1328	54.0%	困难	
+- [ ] 215	数组中的第K个最大元素  	1316	64.6%	中等	
+- [ ] 218	天际线问题  	116	45.3%	困难	
+- [ ] 239	滑动窗口最大值  	835	49.5%	困难	
+- [ ] 253	会议室 II  	205	47.1%	中等	
+- [ ] 295	数据流的中位数  	211	49.7%	困难	
+- [ ] 347	前 K 个高频元素  	918	61.8%	中等	
+- [ ] 378	有序矩阵中第K小的元素  	438	63.1%	中等
+
+
+
