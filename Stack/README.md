@@ -48,18 +48,21 @@
 - [x] [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)
 
 # 二、堆和优先队列
-## 剑指offer
-- [ ] 剑指 Offer 40	最小的k个数  	1235	57.0%	简单	
+## :green_book: 剑指offer
+- [x] 剑指 Offer 40	最小的k个数  	1235	57.0%	简单	
 - [ ] 剑指 Offer 41	数据流中的中位数  	225	56.6%	困难
 
-## leetcode
+## :orange_book: leetcode
+[合集](https://leetcode-cn.com/problemset/all/?topicSlugs=heap&listId=2ckc81c)
+
 - [ ] 23	合并K个升序链表  1328	54.0%	困难	
-- [ ] 215	数组中的第K个最大元素  	1316	64.6%	中等	
+- [x] [215	数组中的第K个最大元素  	1316	64.6%	中等](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)	
 - [ ] 218	天际线问题  	116	45.3%	困难	
 - [ ] 239	滑动窗口最大值  	835	49.5%	困难	
 - [ ] 253	会议室 II  	205	47.1%	中等	
 - [ ] 295	数据流的中位数  	211	49.7%	困难	
-- [ ] 347	前 K 个高频元素  	918	61.8%	中等	
+- [x] [347	前 K 个高频元素  	918	61.8%	中等](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+注意最小堆的时候，需要重新override compare 函数
 - [ ] 378	有序矩阵中第K小的元素  	438	63.1%	中等
 
 
