@@ -16,10 +16,10 @@
 [合集](https://leetcode-cn.com/problemset/all/?topicSlugs=stack&listId=2ckc81c)
 
 ## TO DO
-- [ ] [239 滑动窗口最大值 835	49.5%	困难](https://leetcode-cn.com/problems/sliding-window-maximum)
-可参考https://mp.weixin.qq.com/s/8c6l2bO74xyMjph09gQtpA
+- [x] [239 滑动窗口最大值 835	49.5%	困难](https://leetcode-cn.com/problems/sliding-window-maximum)
+单调队列，可参考https://mp.weixin.qq.com/s/8c6l2bO74xyMjph09gQtpA
 - [ ] [347 前 K 个高频元素  917	61.8% 中等](https://leetcode-cn.com/problems/top-k-frequent-elements)
-参考https://mp.weixin.qq.com/s/8hMwxoE_BQRbzCc7CA8rng
+优先队列，参考https://mp.weixin.qq.com/s/8hMwxoE_BQRbzCc7CA8rng
 
 - [ ] [341	扁平化嵌套列表迭代器  	139	65.8%	中等](https://leetcode-cn.com/problems/flatten-nested-list-iterator)
 题目不太理解
@@ -35,12 +35,11 @@
 - [x] [94	二叉树的中序遍历  	1337	74.6%	中等](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)	
 - [x] [103	二叉树的锯齿形层序遍历  	1100	57.0%	中等](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/submissions/)
 二叉树的层次遍历，需要注意增加一个是否从左打印的flag，如果否的化，path.add(0, value) 在list的首位增加value
-
 - [x] [150	逆波兰表达式求值  	439	50.9%	中等](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)
 用到switch，case，default语句 以及栈
 - [x] [155	最小栈  	1090	56.0%	简单](https://leetcode-cn.com/problems/min-stack/)	
 - [x] [227	基本计算器 II  	233	38.6%	中等](https://leetcode-cn.com/problems/basic-calculator-ii/)
 [参考](https://leetcode-cn.com/problems/basic-calculator-ii/solution/chai-jie-fu-za-wen-ti-shi-xian-yi-ge-wan-zheng-ji-/)
 每次指向的运算符，并非直接进行运算，而是将之前记录的操作符代入计算。（最开始默认sign为+）
-
-
+- [x] [946. 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
+- [x] [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)
