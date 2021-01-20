@@ -21,13 +21,13 @@
 ### TO DO
 - [x] [239 滑动窗口最大值 835	49.5%	困难](https://leetcode-cn.com/problems/sliding-window-maximum)
 单调队列，可参考https://mp.weixin.qq.com/s/8c6l2bO74xyMjph09gQtpA
-- [ ] [347 前 K 个高频元素  917	61.8% 中等](https://leetcode-cn.com/problems/top-k-frequent-elements)
+- [x] [347 前 K 个高频元素  917	61.8% 中等](https://leetcode-cn.com/problems/top-k-frequent-elements)
 优先队列，参考https://mp.weixin.qq.com/s/8hMwxoE_BQRbzCc7CA8rng
 
-- [ ] [341	扁平化嵌套列表迭代器  	139	65.8%	中等](https://leetcode-cn.com/problems/flatten-nested-list-iterator)
+- [ ] [341	扁平化嵌套列表迭代器  	139	65.8%	中等](https://leetcode-cn.com/problems/flatten-nested-list-iterator) :fire:
 题目不太理解
-- [ ] [85	最大矩形  	459	51.6%	困难](https://leetcode-cn.com/problems/maximal-rectangle/)
-- [ ] [394	字符串解码  	875	53.8%	中等](https://leetcode-cn.com/problems/decode-string/solution/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/)
+- [ ] [85	最大矩形  	459	51.6%	困难](https://leetcode-cn.com/problems/maximal-rectangle/) :fire:
+- [ ] [394	字符串解码  	875	53.8%	中等](https://leetcode-cn.com/problems/decode-string/solution/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/) :fire:
 ### Done
 - [x] [20	有效的括号  	3697	43.6%	简单](https://leetcode-cn.com/problems/valid-parentheses/submissions/)	
 需要用一个map来存储匹配关系，再用deque依次放入character，如果要放入的为},])，则deque的peekLast需要与之匹配。
@@ -50,20 +50,18 @@
 # 二、堆和优先队列
 ## :green_book: 剑指offer
 - [x] 剑指 Offer 40	最小的k个数  	1235	57.0%	简单	
-- [ ] 剑指 Offer 41	数据流中的中位数  	225	56.6%	困难
+- [x] 剑指 Offer 41	数据流中的中位数  	225	56.6%	困难
 
 ## :orange_book: leetcode
 [合集](https://leetcode-cn.com/problemset/all/?topicSlugs=heap&listId=2ckc81c)
 
-- [ ] 23	合并K个升序链表  1328	54.0%	困难	
+- [x] 23	合并K个升序链表  1328	54.0%	困难	
 - [x] [215	数组中的第K个最大元素  	1316	64.6%	中等](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)	
-- [ ] 218	天际线问题  	116	45.3%	困难	
-- [ ] 239	滑动窗口最大值  	835	49.5%	困难	
-- [ ] 253	会议室 II  	205	47.1%	中等	
-- [ ] 295	数据流的中位数  	211	49.7%	困难	
+- [ ] 218	天际线问题  	116	45.3%	困难	:fire:
+- [x] 239	滑动窗口最大值  	835	49.5%	困难	
+- [ ] 253	会议室 II  	205	47.1%	中等	:fire:
+- [x] 295	数据流的中位数  	211	49.7%	困难	
 - [x] [347	前 K 个高频元素  	918	61.8%	中等](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 注意最小堆的时候，需要重新override compare 函数
-- [ ] 378	有序矩阵中第K小的元素  	438	63.1%	中等
-
-
+- [x] [378	有序矩阵中第K小的元素  	438	63.1%	中等](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/solution/)
 
